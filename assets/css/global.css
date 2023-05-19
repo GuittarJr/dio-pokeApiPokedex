@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(71, 152, 245);
+}
+
+.content {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: auto;
+}
+.logo{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+   max-height: 75px;
+
+}
+
+.content h1{
+    margin: 0;
+}
+
+@media (min-width: 962px) { 
+    .content{
+        max-width: 962px;
+        margin: 0 auto;
+        height: auto;
+    }
+ }

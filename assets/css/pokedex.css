@@ -4,8 +4,7 @@
     display: grid;
     grid-template-columns: 1fr;
 }
-.pokeInfo{
-}
+
 .pokemon{
     text-transform: capitalize;
     font-weight: bolder;
@@ -18,9 +17,9 @@
     border-radius: .7rem;
     box-sizing: border-box;
     background-image: url('../img/icons8-pokebola-100.png');
-    background-size: 100px;
+    background-size: 70px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
 }
 
 
